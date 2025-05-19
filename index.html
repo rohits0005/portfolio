@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="b10.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <i class="fa fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi ,I am <span>Rohit Sinha</span><br> from Dehradun</h1>
+        </div>
+    </div>
+   </div>
+   <!-----------about---------->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="b11.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p><strong>Rohit Sinha</strong><br>
+B.Tech Student | Graphic Era Hill University, Dehradun
+
+I am a passionate and dedicated B.Tech student at Graphic Era Hill University, Dehradun, with a strong interest in technology and innovation. My academic journey has equipped me with foundational knowledge in engineering principles, problem-solving skills, and hands-on experience with modern technologies. I am eager to apply my skills in real-world projects, contribute to impactful solutions, and continuously learn in the dynamic field of technology.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')"> Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing web'/app interface</li>
+                        <li><span>web development</span><br>Designing web'/app interface</li>
+                        <li><span>app devlop</span><br>Designing web'/app interface</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>WEBSITE</span><br>Designing front end wesite</li>
+                        <li><span>EDITING</span><br>editing videos and images</li>
+                        <li><span>APP DEVELOP</span><br>creating app</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>10 TH</span><br>Ppj saraswati vihar nainital</li>
+                        <li><span>12 TH</span><br>Ppj saraswati vihar nainital</li>
+                        <li><span>BTECH CSE</span><br>Graphic era hill university</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!---------service-------->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">my service</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa fa-code" aria-hidden="true"></i>
+                <h2>web design</h2>
+                <p>creating front end website</p>
+                <a href="#">learn more</a>
+            </div>
+              <div>
+                <i class="fa fa-connectdevelop" aria-hidden="true"></i>
+                <h2>App design</h2>
+                <p>creating App</p>
+                <a href="#">learn more</a>
+            </div>
+              <div>
+                <i class="fa fa-apple" aria-hidden="true"></i>
+                <h2>developer</h2>
+                <p>develop different web using html css java script</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!------portfolio-->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">my work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="b8.jpeg">
+                <div class="layer">
+                    <h3>website developer</h3>
+                    <p>create front end website of any field which required.
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="b6.jpeg">
+                <div class="layer">
+                    <h3>social media app</h3>
+                    <p>The app connects you to the taleented people around the world.
+                        Download if from playstore.
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="b9.jpeg">
+                <div class="layer">
+                    <h3>App Creating</h3>
+                    <p>Different type of app will be created.
+                    </p>
+                </div>
+            </div>
+        </div>
+         <a href="#" class="btn">see more</a>
+    </div>
+   </div>
+   <!------contact------->
+   <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa fa-paper-plane" aria-hidden="true"></i>rohitsinha36845@gmail.com</p>
+                    <p><i class="fa fa-phone-square" aria-hidden="true"></i>7903830454</p>
+                    <div class="social-icons">
+                    <a href="https://www.instagram.com/rohit.sinha._?igsh=NjM5YnByeGVvcWU5&utm_source=qr"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://x.com/its_rohit___25?s=21"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/rohit-sinha-1571b6210?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </div>
+                    <a href="rohit_resume.pdf" class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="your name" required>
+                        <input type="email" name="email" placeholder="your email" required>
+                        <textarea name="message" rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>   
+                    </div>   
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+        <p>ROHIT SINHA</p>
+        </div>
+   </div>
+
+  <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tablink of tabcontents){
+            tablink.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+   </script>
+
+   <script>
+
+     var sidemeu = document.getElementById("sidemenu");
+     function openmenu(){
+        sidemeu.style.right = "0";
+     }
+        function closemenu(){
+        sidemeu.style.right = "-200px";
+     }
+
+
+
+   </script>
+</body>
+</html>
